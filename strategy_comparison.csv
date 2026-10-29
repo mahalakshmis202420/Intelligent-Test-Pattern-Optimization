@@ -1,0 +1,4 @@
+strategy,patterns_used,fault_coverage,faults_detected,total_faults,selected_patterns
+AI_RandomForest_ranked_greedy,4.0,0.9285714285714286,13.0,14,1100;1000;1011;0001
+Basic_binary_order_greedy,4.0,0.9285714285714286,13.0,14,0000;0010;0011;0100
+Random_order_greedy_mean_100_runs,3.77,0.9485714285714287,13.28,14,mean over 100 runs

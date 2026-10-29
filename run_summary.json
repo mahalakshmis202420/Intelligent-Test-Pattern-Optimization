@@ -1,0 +1,43 @@
+{
+  "circuit": "4-input, 3-output combinational logic network",
+  "patterns_exhaustively_generated": 16,
+  "target_faults": 14,
+  "fault_model": "single stuck-at-0 and stuck-at-1 on 7 internal/output nodes",
+  "target_coverage": 0.9,
+  "cv_mae_mean": 0.623375,
+  "cv_mae_std": 0.22056330582170738,
+  "ai_selection": {
+    "strategy": "AI_RandomForest_ranked_greedy",
+    "patterns_used": 4,
+    "fault_coverage": 0.9285714285714286,
+    "faults_detected": 13,
+    "total_faults": 14,
+    "selected_patterns": "1100;1000;1011;0001"
+  },
+  "basic_selection": {
+    "strategy": "Basic_binary_order_greedy",
+    "patterns_used": 4,
+    "fault_coverage": 0.9285714285714286,
+    "faults_detected": 13,
+    "total_faults": 14,
+    "selected_patterns": "0000;0010;0011;0100"
+  },
+  "random_mean_100_runs": {
+    "strategy": "Random_order_greedy_mean_100_runs",
+    "patterns_used": 3.77,
+    "fault_coverage": 0.9485714285714287,
+    "faults_detected": 13.28,
+    "total_faults": 14,
+    "selected_patterns": "mean over 100 runs"
+  },
+  "feature_importances": {
+    "x_a": 0.13185675235437086,
+    "x_b": 0.13739937875741504,
+    "x_c": 0.13326687664063033,
+    "x_d": 0.13607493515497965,
+    "ones_count": 0.15206596168146902,
+    "transitions": 0.2633749747866068,
+    "balanced_bits": 0.04596112062452835
+  },
+  "limitations": "Toy combinational benchmark; results are educational and should not be generalized to industrial ATPG."
+}

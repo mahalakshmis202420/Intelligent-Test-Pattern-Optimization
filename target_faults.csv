@@ -1,0 +1,15 @@
+fault,node,stuck_at
+n1_SA0,n1,0
+n1_SA1,n1,1
+n2_SA0,n2,0
+n2_SA1,n2,1
+n3_SA0,n3,0
+n3_SA1,n3,1
+n4_SA0,n4,0
+n4_SA1,n4,1
+y0_SA0,y0,0
+y0_SA1,y0,1
+y1_SA0,y1,0
+y1_SA1,y1,1
+y2_SA0,y2,0
+y2_SA1,y2,1
